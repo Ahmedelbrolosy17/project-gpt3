@@ -1,0 +1,52 @@
+.overview__testimonials .box{
+    display: flex;
+    position: relative;
+    padding: 15px;
+    background-color: #474747;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 silver;
+}
+.overview__testimonials .box__image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 10px solid #eee;
+    overflow: hidden;
+    display: flex;
+}
+.overview__testimonials .box__image img {
+    width: 100%;
+    height: 100%;
+}
+.overview__testimonials .box__info-person h3{
+    text-transform: capitalize;
+    margin-bottom: 0;
+    color: #fff;
+}
+.overview__testimonials .box__info-person p{
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.overview__testimonials .box__info-stars:not(.filled){
+    color: rgb(219, 219, 219);
+}
+.overview__testimonials .box__info-stars .filled {
+    color: gold;
+}
+.overview__testimonials .box p{
+    color: #fff;
+    line-height: 1.5;
+}
+@media screen and (max-width:900px) {
+    .overview__testimonials .box__image {
+        width: 70px;
+        height: 70px;
+    }
+}

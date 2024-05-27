@@ -1,0 +1,143 @@
+.contact{
+    background-color: var(--color-bg);
+}
+.contact__discount{
+    display: flex;
+}
+.contact__discount-Description{
+    flex: 1;
+    background-color: var(--color-footer);
+    padding: 2rem 0;
+    margin: 1rem;
+}
+.contact__discount-Description__text {
+    text-align: center;
+    padding: 0 1rem;
+}
+.contact__discount-Description__text h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.contact__discount-Description__text p {
+    line-height: 2;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+}
+.contact__discount-Description__image {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact__discount-Description__image img {
+    width: 80%;
+}
+.contact__request{
+    flex: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact__request h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 0 0 25px 0;
+}
+.contact__request-form-input{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid #eee;
+    background-color: #f6f6f6;
+    padding: 15px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.contact__request-form-input:focus{
+    outline: none;
+}
+.contact__request-form-input:focus::placeholder{
+    opacity: 0;
+}
+.contact__request-form input[type="submit"]{
+    display: block;
+    margin: 10px auto 0;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: var(--color-footer);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact__request-form input[type="submit"]:hover{
+    filter: brightness(95%);
+}
+.contact__thought{
+    padding: 1rem;
+
+}
+.contact__thought h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin: 0 0 25px 0;
+}
+.contact__thought input{
+    display: block;
+    width: 100%;
+    padding: 1rem .5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-bottom: 1rem;
+}
+.contact__thought input:focus, .contact__thought textarea:focus{
+    outline: none;
+}
+.contact__thought input:focus::placeholder, .contact__thought textarea:focus::placeholder{
+    opacity: 0;
+}
+.contact__thought textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem .5rem;
+    border-radius: 5px;
+    background-color: #eee;
+
+}
+.contact__thought button{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    background-color: #ff4920ba;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .5rem 3rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    display: block;
+}
+@media screen and (max-width: 768px) {
+    .contact__discount{
+        flex-direction: column;
+    }
+    .contact__discount-Description__text h2 {
+        font-size: 30px;
+    }
+    .contact__discount-Description__text p {
+        font-size: 12px;
+    }
+    .contact__request h2{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,15 @@
+.pricing {
+    background-color: var(--color-bg);
+}
+.pricing__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+@media screen and (max-width:900px) {
+    .pricing__container{
+
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+    }
+}

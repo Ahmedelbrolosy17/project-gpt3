@@ -1,0 +1,15 @@
+.brand__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.brand__container li {
+    min-width: 95px;
+    max-width: 120px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+.brand__container li img {
+    max-width: 100%;
+}
