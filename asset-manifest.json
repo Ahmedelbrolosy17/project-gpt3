@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/project-gpt3/static/css/main.f2c586ca.css",
+    "main.js": "/project-gpt3/static/js/main.5aa7132f.js",
+    "static/js/453.d28b4847.chunk.js": "/project-gpt3/static/js/453.d28b4847.chunk.js",
+    "static/media/Feature Image.png": "/project-gpt3/static/media/Feature Image.e685de02939616d109da.png",
+    "static/media/blog1.png": "/project-gpt3/static/media/blog1.b8c594107c0678715afa.png",
+    "static/media/stats.jpg": "/project-gpt3/static/media/stats.249fd794595caee1637b.jpg",
+    "static/media/blog3.png": "/project-gpt3/static/media/blog3.09c400fc78c96e4ff788.png",
+    "static/media/blog4.png": "/project-gpt3/static/media/blog4.beb41199f58f7cf27240.png",
+    "static/media/blog5.png": "/project-gpt3/static/media/blog5.72041c450fbe88e59333.png",
+    "static/media/blog2.png": "/project-gpt3/static/media/blog2.4575fb47b66fd76940b0.png",
+    "static/media/2.jpeg": "/project-gpt3/static/media/2.7d02f3d172e169f50e17.jpeg",
+    "static/media/Illustration.png": "/project-gpt3/static/media/Illustration.30a34f7e14b6a729cc71.png",
+    "static/media/Group 81.png": "/project-gpt3/static/media/Group 81.2cfdf724680e3ce7e868.png",
+    "static/media/1.png": "/project-gpt3/static/media/1.8e6c4c3651fd74e27c2c.png",
+    "static/media/offer.png": "/project-gpt3/static/media/offer.1ffdd1af660eafbb7834.png",
+    "static/media/4.jfif": "/project-gpt3/static/media/4.c693102b650deeed976b.jfif",
+    "static/media/5.jfif": "/project-gpt3/static/media/5.439c1e69867585d69dae.jfif",
+    "static/media/6.jfif": "/project-gpt3/static/media/6.9e6c0d8f57d785fc5baa.jfif",
+    "static/media/dropbox.png": "/project-gpt3/static/media/dropbox.74056b966ce8bd5829b6.png",
+    "static/media/atlassian.png": "/project-gpt3/static/media/atlassian.b300970d4dad69eef066.png",
+    "static/media/3.jfif": "/project-gpt3/static/media/3.858fc94bd78225738efa.jfif",
+    "static/media/GPT-3.svg": "/project-gpt3/static/media/GPT-3.cf6810c94fbac0cc653f939ff5723cf4.svg",
+    "index.html": "/project-gpt3/index.html",
+    "main.f2c586ca.css.map": "/project-gpt3/static/css/main.f2c586ca.css.map",
+    "main.5aa7132f.js.map": "/project-gpt3/static/js/main.5aa7132f.js.map",
+    "453.d28b4847.chunk.js.map": "/project-gpt3/static/js/453.d28b4847.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2c586ca.css",
+    "static/js/main.5aa7132f.js"
+  ]
+}
